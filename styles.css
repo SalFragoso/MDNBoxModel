@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    border: 2px solid purple;
+}
+
+/*
+The span element should inherit the border-box box-sizing but
+overwrite the border colour.
+ */
+span{
+    display: block;
+    border: 2px solid blue;
+}
+
+/*
+All children should then inherit the inline trait.
+ */
+
+ul{
+    display: inline-flex;
+}
