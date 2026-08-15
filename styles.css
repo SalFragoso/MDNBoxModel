@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 2px solid purple;
+    padding: 0.2em;
 }
 
 /*
@@ -18,4 +18,14 @@ All children should then inherit the inline trait.
 
 ul{
     display: inline-flex;
+    border: 2px solid purple;
+    list-style: none; 
+}
+
+li{
+    border: 2px solid blue;
+}
+
+p{
+    border: 2px solid purple;
 }
