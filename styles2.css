@@ -1,0 +1,26 @@
+/*
+margin here move the "container" class away from the corner
+ */
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border:solid blue 5px;
+    margin: 40px;
+
+}
+
+p{
+    border: solid purple;
+    background-color: lightblue;
+}
+
+.one{
+    margin-bottom: 50px;
+}
+
+.two{
+    margin-top: 50px;
+}
